@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import cssLogo from './images/css_logo.png'
 import htmlLogo from './images/html_logo.png'
+import jsLogo from './images/js_logo.png'
 import reactLogo from './images/react_logo.png'
 import john from './images/john.jpg'
 
@@ -11,6 +12,7 @@ const header = (
     <div>
       <img className='logo' src={cssLogo} alt='css logo' />
       <img className='logo' src={htmlLogo} alt='html logo' />
+      <img className='logo' src={jsLogo} alt='js logo' />
       <img className='logo' src={reactLogo} alt='react logo' />
     </div>
   </div>
