@@ -23,8 +23,6 @@
   - [Getting multiple input data from form](#getting-multiple-input-data-from-form)
 - [Exercises](#exercises)
   - [Exercises: Level 1](#exercises-level-1)
-  - [Exercises: Level 2](#exercises-level-2)
-  - [Exercises: Level 3](#exercises-level-3)
 
 # Uncotrolled Components
 
@@ -146,7 +144,7 @@ class App extends Component {
             />
           </div>
 
-          <button class='btn btn-success'>Submit</button>
+          <button className='btn btn-success'>Submit</button>
         </form>
       </div>
     )
@@ -168,10 +166,11 @@ Most of the time we use controlled input instead of uncontrolled input. In case 
 3. How do you get a content of a certain HTML element in React ?
 4. Why it is not a good idea to touch the DOM directly in React ?
 5. What is most frequently used in React ? Controlled or Uncontrolled input.
-
-## Exercises: Level 2
-
-## Exercises: Level 3
+6. What do you need to write uncontrolled input?
+7. Does state require to write uncontrolled input?
+8. When do you use uncontrolled input?
+9. When do you use controlled input?
+10. Do you use a controlled or uncontrolled input to validate form input fields?
 
 🎉 CONGRATULATIONS ! 🎉
 
